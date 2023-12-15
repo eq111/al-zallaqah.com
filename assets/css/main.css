@@ -139,6 +139,11 @@ input, select, textarea {
 		font-size:xx-large;
 	}
 
+	p#bio{
+		display: contents;
+		color: #363a42;
+	}
+
 	h2 {
 		font-size: 2em;
 		margin: 0 0 1.5em 0;
