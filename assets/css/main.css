@@ -103,7 +103,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Noto Sans Arabic';
 		color: #7b818c;
 		font-weight: 400;
 		font-size: 11pt;
@@ -1717,14 +1717,14 @@ input, select, textarea {
 
 	#nav {
 		position: absolute;
-		right: 2em;
-		top: 0;
+		left: 20em;
+		top: 3em;
 		line-height: 5.5em;
 	}
 
 		#nav > ul > li {
-			float: left;
-			padding: 0 0.8em 0 0.8em;
+			float: right;
+			padding: 0 3em;
 		}
 
 			#nav > ul > li > a, #nav > ul > li > span {
@@ -1739,16 +1739,14 @@ input, select, textarea {
 				outline: 0;
 			}
 
-			#nav > ul > li.active > a,
-			#nav > ul > li.current_page_item > a,
-			#nav > ul > li.active > span,
-			#nav > ul > li.current_page_item > span {
+			#nav > ul > li.active > a
+			#nav > ul > li.active > span {
 				background: rgba(0, 0, 0, 0.15);
 				box-shadow: inset 1px 1px 0px 0px rgba(0, 0, 0, 0.025), 1px 1px 0px 0px rgba(255, 255, 255, 0.025);
 			}
 
 			#nav > ul > li:last-child {
-				padding-right: 0;
+				padding-right: 5em;
 			}
 
 			#nav > ul > li > ul {
@@ -1864,7 +1862,7 @@ input, select, textarea {
 		background: url("images/bg01.png"), url("../../images/header.jpg");
 		background-position: top left, center center;
 		background-size: auto, cover;
-		padding: 3em 0;
+		padding: 0em 0;
 	}
 
 	#main-wrapper {
@@ -1912,29 +1910,43 @@ input, select, textarea {
 			background-position: top center, top left;
 		}
 
+		/*contact page & social media*/
+	#consoci{
+		background-color: #3B3E45;
+		right: 0%;
+		left: 0%;
+		height: 22px;
+		color:white;
+		position: relative;
+		z-index: 3;
+		position: fixed;
+		top:0%;
+		text-decoration: none;
+	}
+
+	#consoci ul{
+		
+		font-size: 15px;
+		padding-left: 1em;
+		word-spacing: 1em;
+		margin-top: 0.05em;
+		
+	}
+
 /* Header */
 
 	#header {
 		position: relative;
-		border-radius: 10px;
-		background: rgba(255, 255, 255, 0.1);
-		padding: 0.75em;
-		margin-bottom: 0;
+		z-index: 2;
+		position: sticky;
+		top: 0%;
+		background-color: #3B3E45;
+		right: 0%;
+		left: 0%;
+		padding: 1.45em 0 0.3em 0em;
 	}
 
-		#header .inner {
-			background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)), url("images/bg02.png");
-			position: relative;
-			height: 5.5em;
-			background-color: #3B3E45;
-			background-color: rgba(59, 62, 69, 0.9);
-			border-radius: 8px;
-			box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.45), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.15);
-			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
-		}
+	
 
 		#header h1 {
 			position: absolute;
@@ -1943,6 +1955,15 @@ input, select, textarea {
 			margin-top: -0.65em;
 			font-size: 1.5em;
 			color: #fff;
+		}
+
+		.site-logo {
+			position: relative;;
+			width: 85px;
+			height: auto;
+			left: 93%;
+			top: 0;
+			text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 		}
 
 /* Footer */
@@ -2438,4 +2459,127 @@ input, select, textarea {
 				padding: 3em 0 1em 0;
 			}
 
+			#consoci{
+				color:white;
+				position: absolute;
+				position: relative;
+				z-index: 5;
+				text-decoration: none;
+				top: 0em;
+				left: 70%;
+				
+				}
+
+		#consoci ul{
+					font-size: 12px;
+					padding-left: 1em;
+					word-spacing: 0.5em;
+					
+					}
+
+
+					.site-logo {
+						position: absolute;
+						width: 28px;
+						height: auto;
+						left: 46%;
+						top: 0.8em;
+						text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+					}
+					
+
+
 	}
+
+	.mySlides {display: none}
+img {vertical-align: middle;}
+
+	/* Slideshow container */
+.slideshow-container {
+	max-width: 100%;
+	position: relative;
+	margin: -2em 0 0 0;
+	
+	
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	background-color: #00000048;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+  }
