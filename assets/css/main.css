@@ -2480,10 +2480,10 @@ input, select, textarea {
 
 					.site-logo {
 						position: absolute;
-						width: 28px;
+						width: 40px;
 						height: auto;
 						left: 46%;
-						top: 0.8em;
+						top: 0.35em;
 						text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
 					}
 					
