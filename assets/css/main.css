@@ -2583,3 +2583,13 @@ img {vertical-align: middle;}
   @media only screen and (max-width: 300px) {
 	.prev, .next,.text {font-size: 11px}
   }
+
+  .background1{
+	position: absolute;
+	width: auto;
+	height: 100%;
+  }
+
+  h1{
+	color:white
+  }
